@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>图片展示</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      background: #f5f5f5;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+                   "Microsoft YaHei", sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 20px 12px 36px;
+    }
+    .page {
+      width: min(900px, 100%);
+      text-align: center;
+    }
+    .photo-wrap {
+      background: #fff;
+      padding: 12px;
+      border-radius: 10px;
+      box-shadow: 0 2px 14px rgba(0,0,0,.08);
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .notice {
+      margin: 14px 4px 0;
+      color: #777;
+      font-size: 13px;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="photo-wrap">
+      <img src="photo.jpeg" alt="图片展示">
+    </div>
+    <div class="notice">
+      图片展示页面｜仅供个人学习、展示使用<br>
+      本页面不是任何考试机构或政府网站的官方查询页面
+    </div>
+  </main>
+</body>
+</html>
